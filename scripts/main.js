@@ -83,7 +83,7 @@ function showResult() {
   const questionBoard = document.querySelector(".question-board");
   questionBoard.innerText = `Your Score: ${score} / ${questions.length}
 
-  Percentage: ${percentage}%`;
+  Percentage: ${percentage.toFixed(2)}%`;
   questionBoard.style.fontSize = "1.25em";
   progress.innerText = "Result";
 }
