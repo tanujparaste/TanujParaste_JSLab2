@@ -17,10 +17,11 @@ aside {
   justify-content: center;
   align-items: center;
   background-color: #2e78bd;
-  padding: 5px;
+  padding: 0.5em;
 }
 h1 {
   font-size: 2.5em;
+  text-align: center;
 }
 .quiz-container {
   display: grid;
@@ -50,7 +51,7 @@ h1 {
 }
 .option-container {
   display: grid;
-  gap: 20px;
+  gap: 1em;
   font-size: 1.25em;
   list-style: upper-alpha;
 }
